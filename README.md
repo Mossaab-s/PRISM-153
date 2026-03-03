@@ -92,32 +92,32 @@ Query sent to `Mistral-Dev:latest` (specialized in software development):
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                      USER QUERY                          │
+│                      USER QUERY                         │
 └─────────────────────────┬───────────────────────────────┘
                           │
                           ▼
 ┌─────────────────────────────────────────────────────────┐
-│                    VSLM CONSOLE                          │
-│         Semantic classification of query intent          │
-│         Domain identification + confidence score         │
+│                    VSLM CONSOLE                         │
+│         Semantic classification of query intent         │
+│         Domain identification + confidence score        │
 └─────────────────────────┬───────────────────────────────┘
                           │
                           ▼
 ┌─────────────────────────────────────────────────────────┐
-│                   153-REGISTRY                           │
-│         Dynamic directory of qualified SLMs              │
-│         Each model: domain, score, ban status            │
+│                   153-REGISTRY                          │
+│         Dynamic directory of qualified SLMs             │
+│         Each model: domain, score, ban status           │
 └─────────────────────────┬───────────────────────────────┘
                           │
                           ▼
 ┌─────────────────────────────────────────────────────────┐
-│                   153-KEY PROTOCOL                       │
-│         Query encapsulated → model self-validates        │
+│                   153-KEY PROTOCOL                      │
+│         Query encapsulated → model self-validates       │
 └──────────┬──────────────────────────────┬───────────────┘
            │                              │
            ▼                              ▼
     ┌─────────────┐               ┌──────────────┐
-    │  ACCEPTED ✅ │               │  REFUSED ❌  │
+    │ ACCEPTED ✅ │               │  REFUSED ❌ │
     └──────┬──────┘               └──────┬───────┘
            │                             │
            ▼                             ▼
