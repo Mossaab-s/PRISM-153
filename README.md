@@ -238,8 +238,8 @@ If you use PRISM in your research, please cite:
 ## Links
 
 - 📄 **Paper**: [Zenodo — doi.org/10.5281/zenodo.18750029](https://doi.org/10.5281/zenodo.18750029)
-- 🔗 **vLLM Integration Issue**: [GitHub #35804](https://github.com/vllm-project/vllm/issues/35804)
-- 💬 **Discussion**: Open an issue or join the conversation on [vLLM Slack](https://slack.vllm.ai)
+- 🔗 **vLLM Integration Issue**: [GitHub #1422](https://github.com/vllm-project/semantic-router/issues/1422)
+
 
 ---
 
