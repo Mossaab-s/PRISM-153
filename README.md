@@ -150,7 +150,7 @@ PRISM has been validated in production at a textile manufacturing company (Chât
 
 PRISM is designed to complement, not compete with, the vLLM Semantic Router (Signal-Decision Architecture).
 
-**Three integration options are under community discussion** in [vLLM Issue #35804](https://github.com/vllm-project/vllm/issues/35804):
+**Three integration options are under community discussion** in [vLLM Issue #35804](https://github.com/vllm-project/semantic-router/issues/1422):
 
 ### Option 1 — Fine Filter (PRISM after vLLM-SR)
 ```
