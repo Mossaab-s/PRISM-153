@@ -25,6 +25,25 @@ The core problem it solves: LLMs hallucinate, improvise outside their domain, an
 
 ## The 153-key Protocol
 
+## Protocol Specification
+
+The complete formal specification of the 153-key protocol:
+
+📄 [`PRISM-VIlm-SR-whitepaper-COMPLET-EN.pdf`](./PRISM-VIlm-SR-whitepaper-COMPLET-EN.pdf)
+
+| Section | Page | Content |
+|---------|------|---------|
+| Key 1 — QUALIFICATION | p.2 | Schema, scoring scale, registry feeding |
+| Key 2 — CLASSIFICATION | p.3 | Schema, confidence scale, DOMAINS_LIST |
+| Key 3 — EXECUTION | p.4 | ACCEPTED/REFUSED criteria, output format |
+| Integration modes | p.6 | fine_filter / coarse_filter / hybrid |
+| Domain Discovery | p.12 | Auto-approval, validation thresholds |
+```
+
+Commit message :
+```
+Add Protocol Specification section to README
+
 The 153-key is the core mechanism of PRISM. It is a structured prompt architecture that forces any SLM or LLM to:
 
 1. **Declare** its domain boundaries explicitly before any query is processed
