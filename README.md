@@ -29,7 +29,7 @@ The core problem it solves: LLMs hallucinate, improvise outside their domain, an
 
 The complete formal specification of the 153-key protocol:
 
-📄 [`PRISM-VIlm-SR-whitepaper-COMPLET-EN.pdf`](./PRISM-VIlm-SR-whitepaper-COMPLET-EN.pdf)
+📄 [`PRISM-VIlm-SR-whitepaper-COMPLET-EN.pdf`](./PRISM-Vllm-SR-whitepaper-COMPLET-EN.pdf)
 
 | Section | Page | Content |
 |---------|------|---------|
